@@ -27,7 +27,12 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-x<-c("Stately plump "Buck", "Mulligan", "came", "from", "the", "stairhead", "bearing", "a", "bowl", "of", "lather", "on", "which", "a", "mirror", "and", "a", "razor", "lay", "crossed")
+x<-c("Stately", "plump", "Buck", "Mulligan", "came", "from", "the", "stairhead", "bearing", "a", "bowl", "of", "lather", "on", "which", "a", "mirror", "and", "a", "razor", "lay", "crossed")
+str_split(x, " ")
 
 y<-c("Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed.")
+
 str_split(y, " ")
+
+y[[1]][c(3,6,9,12,15,18,21)]
+
