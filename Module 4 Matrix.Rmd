@@ -26,3 +26,17 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+m <- matrix(data = 1:80, nrow = 8, ncol = 10, byrow = FALSE)
+
+x<-m[c(1,2,3,4,5,6,7,8), c(2,3,4)]
+x
+a<- array(data = 400:1, dim = c(5,5,4,4))
+a
+
+
+a[1, 1, 1, 2]
+
+a[2, 3, 2,]
+
+a[1:5, 1:5, 3, 3]
