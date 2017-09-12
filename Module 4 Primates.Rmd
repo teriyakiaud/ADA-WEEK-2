@@ -1,0 +1,63 @@
+---
+title: "Module 4 primates"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+l<-list(c("Primates
+
+    Haplorhini
+        Anthropoidea
+            Platyrrhini
+                Cebidae
+                Atelidae
+                Pitheciidae
+            Catarrhini
+                Cercopithecidae
+                Hylobatidae
+                Hominidae
+        Tarsioidea
+            Tarsiidae
+    Strepsirhini
+        Lorisoidea
+            Lorisidae
+            Galagidae
+        Lemuroidea
+            Cheirogaleidae
+            Lepilemuridae
+            Indriidae
+            Lemuridae
+            Daubentoniidae"
+))
+haplorhini<-list(c("anthropoidea","tarsioidea"))
+anthropoidea<-list(c("platyrrhini", "catarrhini"))
+tarsioidea<-list("tarsiidae")
+platyrrhini<-list(c("cebidae", "atelidae", "pitheciidae"))
+catarrhini<-list(c("cercopithecidae", "hylobatidae", "hominindae"))
+b<-primate
+primates<-(list("haplorhini"))
+l<-list(list(b), list(haplorhini), list(anthropoidea))
+l<-list(list(b), list(haplorhini), list(anthropoidea), list(tarsioidea), list(platyrrhini), list(catarrhini))
+l
