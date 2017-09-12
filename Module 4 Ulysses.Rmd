@@ -34,5 +34,6 @@ y<-c("Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of la
 
 str_split(y, " ")
 
-y[[1]][c(3,6,9,12,15,18,21)]
+y[c(1), c(3,6,9,12,15,18,21)]
 
+words<-y[[1]] 
