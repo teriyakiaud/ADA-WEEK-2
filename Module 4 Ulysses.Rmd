@@ -35,10 +35,11 @@ str_split(y, " ")
 #split the sentence by spaces into separate words
 
 y2<-c(unlist(str_split(y, " ")))
-
+#unlists the sentence so it is not one block of text
 y2
 
 extract<-y2[c(3,6,9,12,15,18,21)]
+#extracts every element that is within the c()
 extract
 
 
