@@ -10,3 +10,7 @@ m1
 df<-data.frame(m1)
 df
 #use this command to change matrix to dataframe
+
+df1<-as.logical(df[c(1,2,3,4,5) , 2])
+df1
+#commands as.___() changes the class of your values. This used logical to change 1s and 0s to TRUE or FALSE
