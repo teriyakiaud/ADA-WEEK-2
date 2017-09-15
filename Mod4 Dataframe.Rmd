@@ -17,3 +17,6 @@ df1
 
 df2<-as.factor(df[c(1,2,3,4,5) , 3])
 df2
+
+str(df1)
+str(df2)
